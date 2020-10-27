@@ -6,12 +6,12 @@ require 'password_enforcer/version'
 Gem::Specification.new do |spec|
   spec.name          = "password_enforcer"
   spec.version       = PasswordEnforcer::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
+  spec.authors       = ["Ryker Blunck"]
+  spec.email         = ["ryker.blunck@atomicjolt.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Requires stronger password defaults in Canvas.}
+  spec.description   = %q{Requires stronger password defaults in Canvas.}
+  spec.homepage      = "https://atomicjolt.com"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.

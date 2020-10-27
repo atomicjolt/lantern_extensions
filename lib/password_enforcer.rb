@@ -1,5 +1,5 @@
 require "password_enforcer/version"
+require "password_enforcer/engine"
 
 module PasswordEnforcer
-  # Your code goes here...
 end
