@@ -14,7 +14,7 @@ module PasswordEnforcer
 
       # ApplicationController.prepend_view_path "gems/plugins/password_enforcer/app/views/password_enforcer"
       # Mailer.prepend_view_path "gems/plugins/password_enforcer/app/messages"
-      Canvas::MessageHelper.add_message_path(File.join(Rails.root.to_s, 'gems', 'plugins', 'password_enforcer', 'messages'))
+      Canvas::MessageHelper.add_message_path(PasswordEnforcer::NullablePath.new)
     end
   end
 end
