@@ -1,5 +1,5 @@
 --- ../../../app/messages/enrollment_registration.email.html.erb	2020-10-27 05:40:36.661361297 +0000
-+++ messages/enrollment_registration.email.html.erb	2020-11-02 16:58:11.841443675 +0000
++++ messages/enrollment_registration.email.html.erb	2020-11-02 18:01:06.026440282 +0000
 @@ -39,7 +39,7 @@
      <% end %>
  </table>
