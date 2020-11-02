@@ -1,5 +1,5 @@
 --- ../../../app/messages/pseudonym_registration.email.html.erb	2020-11-02 18:28:56.668771755 +0000
-+++ messages/pseudonym_registration.email.html.erb	2020-11-02 18:02:54.151007132 +0000
++++ messages/pseudonym_registration.email.html.erb	2020-11-02 18:32:24.304458303 +0000
 @@ -6,11 +6,11 @@
  <% end %>
  
