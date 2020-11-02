@@ -1,0 +1,16 @@
+--- ../../../app/messages/pseudonym_registration.email.html.erb	2020-10-27 05:38:02.946594181 +0000
++++ messages/pseudonym_registration.email.html.erb	2020-11-02 17:01:00.836629152 +0000
+@@ -6,11 +6,11 @@
+ <% end %>
+ 
+ <% define_content :subject do %>
+-  <%= t :subject, "Finish Registration: Canvas" %>
++  <%= t :subject, "Finish Registration: Lantern" %>
+ <% end %>
+ 
+ <a href="<%= content(:link) %>">
+   <%= t :link, "Click here to finish the registration process" %>
+ </a>
+ 
+-<p><%= t :body, "You have been registered for a Canvas account at %{account}!  Before you can log in and start using Canvas, you'll need to finish the configuration process.", :account => p.account.display_name %></p>
++<p><%= t :body, "You have been registered for a Lantern account.  Before you can log in and start using Lantern, you'll need to finish the configuration process.", :account => p.account.display_name %></p>
