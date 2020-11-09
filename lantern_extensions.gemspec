@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'password_enforcer/version'
+require 'lantern_extensions/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "password_enforcer"
-  spec.version       = PasswordEnforcer::VERSION
+  spec.name          = "lantern_extensions"
+  spec.version       = LanternExtensions::VERSION
   spec.authors       = ["Ryker Blunck"]
   spec.email         = ["ryker.blunck@atomicjolt.com"]
 
-  spec.summary       = %q{Requires stronger password defaults in Canvas.}
-  spec.description   = %q{Requires stronger password defaults in Canvas.}
+  spec.summary       = %q{Customizes Canvas features for Lantern LMS}
+  spec.description   = %q{Customizes Canvas features for Lantern LMS}
   spec.homepage      = "https://atomicjolt.com"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
