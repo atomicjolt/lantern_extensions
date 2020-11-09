@@ -1,36 +1,23 @@
-# PasswordEnforcer
+# Lantern Extensions
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/password_enforcer`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This is a Canvas plugin that provides some modifications for JPay. The
+modifications include enforcing stronger passwords, and modifying some email
+templates to replace Canvas branding with Lantern LMS branding.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'password_enforcer'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install password_enforcer
-
-## Usage
-
-TODO: Write usage instructions here
+- Place this gem in gems/plugins within canvas.
+- Start or restart Canvas.
+- Navigate to /plugins in Canvas and enable the Lantern LMS extensions plugin.
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+This code must be run within Canvas as described in the Installation section.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+In order to help keep up with changes to the emails templates in canvas, there
+is a script at ./bin/generate_templates.sh that will copy the templates from
+canvas and apply some patch files to make the desired changes.
 
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/password_enforcer.
-
+In the event that the patches can no longer be applied, because significant
+changes have been made in canvas, the templates can be modified manually, and
+then ./bin/generate_diffs.sh will create new diffs based on those changes.
