@@ -9,6 +9,8 @@ templates to replace Canvas branding with Lantern LMS branding.
 - Place this gem in gems/plugins within canvas.
 - Start or restart Canvas.
 - Navigate to /plugins in Canvas and enable the Lantern LMS extensions plugin.
+- Restart Canvas again. It could potentially be made to take effect immediately,
+  but this keeps things simple in terms of code and performance.
 
 ## Development
 
