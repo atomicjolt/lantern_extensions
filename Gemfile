@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in password_enforcer.gemspec
+# Specify your gem's dependencies in lantern_extensions.gemspec
 gemspec
