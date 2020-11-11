@@ -1,0 +1,11 @@
+--- ../../../app/messages/enrollment_registration.email.html.erb	2020-10-27 05:40:36.661361297 +0000
++++ messages/enrollment_registration.email.html.erb	2020-11-02 18:32:24.281124704 +0000
+@@ -39,7 +39,7 @@
+     <% end %>
+ </table>
+ 
+-<p><%= t :details, "You'll need to register with Canvas before you can participate in the class." %></p>
++<p><%= t :details, "You'll need to register with Lantern before you can participate in the class." %></p>
+ 
+ <br><br>
+ 
