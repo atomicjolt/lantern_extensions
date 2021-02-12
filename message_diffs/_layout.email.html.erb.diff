@@ -1,5 +1,5 @@
---- ../../../app/messages/_layout.email.html.erb	2020-10-27 05:40:36.661361297 +0000
-+++ messages/_layout.email.html.erb	2020-11-02 23:47:08.166654343 +0000
+--- ../../../app/messages/_layout.email.html.erb	2020-12-16 22:03:48.792768097 +0000
++++ messages/_layout.email.html.erb	2021-02-12 21:18:24.739103447 +0000
 @@ -79,8 +79,8 @@
          <!-- logo: branding -->
          <table class="logo" style="width:100%; box-sizing:border-box; border-collapse:separate; mso-table-lspace:0pt; mso-table-rspace:0pt; ">
@@ -7,7 +7,7 @@
 -            <td class="logocell" style="text-align:center; vertical-align:top; box-sizing:border-box; padding:10px;">
 -              <img src="<%= custom_logo || "https://du11hjcvx0uqb.cloudfront.net/dist/images/email_signature-d2c5880612.png" %>" alt="">
 +            <td class="logocell" style="text-align:center; vertical-align:top; box-sizing:border-box; padding:10px; background-color:#2EB2CF">
-+              <img src="https://lms.projectlantern.com/images/jpay_lantern_logo_horz.png" alt="Lantern logo">
++              <img src="https://lms.lanternlms.org/files/63746/download" alt="Lantern logo">
              </td>
            </tr>
          </table>
