@@ -1,0 +1,18 @@
+--- ../../../app/messages/account_user_registration.email.html.erb	2020-10-27 05:38:02.923260633 +0000
++++ messages/account_user_registration.email.html.erb	2021-02-12 22:19:04.326937966 +0000
+@@ -3,7 +3,7 @@
+ <% end %>
+ 
+ <% define_content :subject do %>
+-  <%= t :subject, "Canvas Account Admin Invitation" %>
++  <%= t :subject, "Lantern Account Admin Invitation" %>
+ <% end %>
+ 
+ <a href="<%= content(:link) %>">
+@@ -36,5 +36,5 @@
+   <% end %>
+ </table>
+ 
+-<p><%= t(:url_info_label, "You'll need to register with Canvas before you can participate as an account admin.") %></p>
++<p><%= t(:url_info_label, "You'll need to register with Lantern before you can participate as an account admin.") %></p>
+ 

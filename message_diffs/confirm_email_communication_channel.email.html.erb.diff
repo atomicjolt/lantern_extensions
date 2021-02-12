@@ -1,0 +1,11 @@
+--- ../../../app/messages/confirm_email_communication_channel.email.html.erb	2020-10-27 05:38:02.929927361 +0000
++++ messages/confirm_email_communication_channel.email.html.erb	2021-02-12 22:18:15.693045799 +0000
+@@ -3,7 +3,7 @@
+ <% end %>
+ 
+ <% define_content :subject do %>
+-  <%= t :subject, "Confirm Email: Canvas" %>
++  <%= t :subject, "Confirm Email: Lantern" %>
+ <% end %>
+ 
+ <% define_content :footer_link do %>

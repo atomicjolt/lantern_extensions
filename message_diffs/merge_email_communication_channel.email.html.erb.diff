@@ -1,0 +1,12 @@
+--- ../../../app/messages/merge_email_communication_channel.email.html.erb	2020-10-27 05:38:02.939927453 +0000
++++ messages/merge_email_communication_channel.email.html.erb	2021-02-12 22:18:20.086429626 +0000
+@@ -8,7 +8,7 @@
+ <% end %>
+ 
+ <% define_content :subject do %>
+-  <%= t('subject', 'New Canvas Account') %>
++  <%= t('subject', 'New Lantern Account') %>
+ <% end %>
+-<p><%= t :account_created, "An account has been created for you at %{host}, but you already have a Canvas account.", :host => new_host %></p>
++<p><%= t :account_created, "An account has been created for you at %{host}, but you already have a Lantern account.", :host => new_host %></p>
+ <p><%= t :merge2, "If you would like to merge them together, *click here*", :wrapper => "<a href=\"#{content(:link)}\">\\1</a>" %></p>
