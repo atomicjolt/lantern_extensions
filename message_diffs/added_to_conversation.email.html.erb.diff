@@ -1,0 +1,17 @@
+--- ../../../app/messages/added_to_conversation.email.html.erb	2020-10-27 05:38:02.923260633 +0000
++++ messages/added_to_conversation.email.html.erb	2021-02-12 22:18:15.049705072 +0000
+@@ -7,7 +7,7 @@
+ <% end %>
+ 
+ <% define_content :subject do -%>
+-  <%= t :subject, "%{user_name} just added you to a conversation in Canvas.", :user_name => content(:user_name) %>
++  <%= t :subject, "%{user_name} just added you to a conversation in Lantern.", :user_name => content(:user_name) %>
+ <% end %>
+ 
+ <% define_content :footer_link do %>
+@@ -16,4 +16,4 @@
+   </a>
+ <% end %>
+ 
+-<p><%= t :body, "%{user_name} just added you to a conversation in Canvas.", :user_name => content(:user_name) %></p>
++<p><%= t :body, "%{user_name} just added you to a conversation in Lantern.", :user_name => content(:user_name) %></p>

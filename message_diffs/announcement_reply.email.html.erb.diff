@@ -1,0 +1,11 @@
+--- ../../../app/messages/announcement_reply.email.html.erb	2020-10-27 05:38:02.923260633 +0000
++++ messages/announcement_reply.email.html.erb	2021-02-12 22:19:18.420433204 +0000
+@@ -56,7 +56,7 @@
+ <% end %>
+ 
+ <% if IncomingMailProcessor::MailboxAccount.reply_to_enabled %>
+-<p><%= t :discussion_entry_reply_message, "Join the conversation using the link below, or comment by replying to this message.  When allowed, if you need to include an attachment, please log in to Canvas and reply to the announcement." %></p>
++<p><%= t :discussion_entry_reply_message, "Join the conversation using the link below, or comment by replying to this message.  When allowed, if you need to include an attachment, please log in to Lantern and reply to the announcement." %></p>
+ <% else %>
+ <p><%= t "Join the conversation using the link below." %></p>
+ <% end %>
